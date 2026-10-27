@@ -35,3 +35,31 @@ experiments/detkat_windows_[0-9].json
 # OS
 .DS_Store
 Thumbs.db
+
+# Local-only automation workspace; use RESEARCH_TEMP outside this repository.
+/.codex-tmp/
+/.codex-render-*/
+/.qa*/
+/tmp/
+/.claude/
+/.codex/
+.DS_Store
+Thumbs.db
+~$*
+*.swp
+*.swo
+.env
+.env.*
+!.env.example
+!.env.sample
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+node_modules/
+.gocache/
